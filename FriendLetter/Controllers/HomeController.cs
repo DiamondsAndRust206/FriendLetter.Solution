@@ -9,7 +9,7 @@ namespace FriendLetter.Controllers
     public string Goodbye() { return "Goodbye friend."; }
 
     [Route("/")]
-    public string Letter() { return "Our virtual postcard will go here soon!"; }
+    public ActionResult Letter() { return View(); }
 
   }
 }
